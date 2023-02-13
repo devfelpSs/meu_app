@@ -1,0 +1,17 @@
+{
+    "githubPullRequests.queries": [
+    
+        {
+            "label": "Aguardando Minha Análise",
+            "query": "is:open review-requested:${user}"
+        },
+        {
+            "label": "Atribuído a Mim",
+            "query": "is:open assignee:${user}"
+        },
+        {
+            "label": "Criado Por Mim",
+            "query": "is:open author:${user}"
+        }
+    ]
+}
